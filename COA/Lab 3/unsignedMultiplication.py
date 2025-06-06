@@ -24,4 +24,4 @@ while count > 0:
     
 product = (A << n) | Q
 print("Product in decimal = ", product) 
-print("Product in binary = {:8b}".format(product))
+print("Product in binary = {:08b}".format(product))
