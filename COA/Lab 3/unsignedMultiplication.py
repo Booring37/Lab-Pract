@@ -8,8 +8,6 @@ Q = int(qS,2)
 count = len(mS) if M>Q else len(qS)
 n=count
 
-print(M, Q, count)
-
 while count > 0:
     if (Q & 1 == 1):
         temp = A + M
