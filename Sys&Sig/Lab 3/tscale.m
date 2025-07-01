@@ -3,3 +3,4 @@ function [x1,t1]=tscale(x,t,alph,del)
 t1 = min(t)/alph : del/alph : max(t)/alph;
 x1 = x;
 plot(t1,x1);
+end

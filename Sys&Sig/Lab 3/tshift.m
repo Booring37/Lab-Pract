@@ -8,3 +8,4 @@ else %time advanced
     x1 = [x zeros(1,length(t1)-length(t))];
 end
 plot(t1,x1);
+end
